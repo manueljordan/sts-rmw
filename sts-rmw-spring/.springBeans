@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.9.2.201712210913-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>java:com.manuel.jordan.config.view.RequestMappingsViewConfig</config>
+	</configs>
+	<autoconfigs>
+		<config>java:com.manuel.jordan.config.mvc.WebMvcConfig</config>
+	</autoconfigs>
+	<configSets>
+		<configSet>
+			<name><![CDATA[request-mappings-view]]></name>
+			<allowBeanDefinitionOverriding>true</allowBeanDefinitionOverriding>
+			<incomplete>false</incomplete>
+			<configs>
+				<config>java:com.manuel.jordan.config.view.RequestMappingsViewConfig</config>
+			</configs>
+			<profiles>
+				<profile><![CDATA[request-mappings-view]]></profile>
+			</profiles>
+		</configSet>
+	</configSets>
+</beansProjectDescription>

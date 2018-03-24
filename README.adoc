@@ -1,0 +1,12 @@
+= STS-RMW
+
+Purpose of this project is work around the `@RequestMappings` view in `STS`,
+it through the version _3.9.1_ and _3.9.2_.
+
+Exists two set of `@Controller`, for _web_ and _rest_
+
+[NOTE]
+.Execution
+====
+The project is **not** executable. Just to compile and use `@RequestMappings`
+====

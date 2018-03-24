@@ -1,0 +1,22 @@
+project (':sts-rmw-spring'){
+
+	description 'Spring'
+
+	dependencies {
+		 	   		   
+	   //Spring Framework
+	   ['spring-context',
+	    'spring-jdbc',
+		'spring-webmvc'
+	   ].each { 
+	   	compile "org.springframework:$it:$springFrameworkVersion" 
+	   }		 	   		   
+	
+	   compile "javax.servlet:javax.servlet-api:$javaxServletApiVersion"
+	   
+	   runtime "javax.servlet:jstl:$jstlVersion"
+	
+		 	   		   		 	   			 	   		   		 	   		   	
+	}
+		
+}
